@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: inline-block;
+        }
+        .img1 img{
+            position: relative;
+            left: 25vw;
+            animation-name: img1;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            width: 50vw;
+            height: 82vh; 
+
+            
+        }
+        @keyframes img1{
+            from{
+                left: 25vw;
+            }
+            to{
+                left: 100vw;
+                visibility: hidden;
+               }
+
+        }
+        .img2 img{
+           position: relative;
+            right: 135vw;
+            animation-name: img2;
+            animation-duration: 2s;
+           width:91vw;
+                height: 80vh;
+        }
+        @keyframes img2{
+            from{
+                right: 135vw;
+            }
+            to{
+                right: 25vw;
+                z-index: 4;
+
+            }
+        }
+        .img3{
+            position: relative;
+            right: 230vw;
+        }
+    
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="img1">
+            <!-- <img src="ecommerce img1.jpg" alt=""> -->
+        </div>
+        <div class="img3">
+            <img src="ecommerce img2.jpg" alt="">
+        </div>
+        <div class="img2">
+            <img src="ecommerce img3.jpg" alt="">
+        </div>
+
+    </div>
+</body>
+</html>

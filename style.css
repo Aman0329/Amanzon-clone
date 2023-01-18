@@ -1,0 +1,202 @@
+ *{
+     padding: 0;
+     margin: 0;
+ }
+ footer{
+    width: 100vw;
+    height: 20vh;
+ }
+.top{
+    text-transform: capitalize;
+    display: block;
+    text-align: center;
+    background-color: #37475A;
+    color:white;
+    font-size: small;
+    height: 8vh;
+    padding-top: 4px;
+
+}
+.foot{
+    background-color: #232F3E;
+    color:white;
+    display: flex;
+    height: 58vh;
+}
+.foot1 ul li{
+    list-style: none;
+}
+.foot1{
+    padding: 0 8vw;
+}
+.foot1 h2{
+    text-transform: capitalize;
+    margin: 23px 0px;
+}
+.foot1 ul li{
+    margin: 12px 0px;
+}
+.logo img{
+    width: 7vw;
+    margin: 7vh 45vw;
+    height: 7vh;
+    
+}
+.logo{
+    width: 100vw;
+    height: 25vh;
+    border: 0.1px  white;
+    border-style: inset;
+    background-color:#232F3E;
+}
+.select{
+    margin: -14vh 54vw;
+    border: 1px dotted white;
+    
+}
+.foot2{
+    height: 25vh;
+}
+.copy{
+    background-color:#37475A ;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    height: 10vh;
+    padding-top: 5vh;
+}
+.logo2 img{
+    width: 8vw;
+    height: auto;
+    margin-top: 1vh;
+}
+nav{
+    background-color: black;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+}
+.all select{
+
+    width: auto;
+    height: 5vh;
+    
+    
+
+}
+.all img{
+    width: 2vw;
+    height: 5vh;
+    position: absolute;
+    top: 0.5vh;
+    margin-left: 1vw;
+}
+.all{
+    position: relative;
+    background-color:orange;
+    width: 45vw;
+    margin-left: 10vw;
+    height: 6vh;
+    margin-top:2vh ;
+    border: 1px solid orange;
+    border-radius: 5px;
+}
+.all input{
+    height: 5vh;
+    width: 30vw;
+    margin: 1px 0px;
+}
+.navtext{
+    color: white;
+    margin-left: 4vw;
+    margin-top: 2vh;
+}
+.navtext p {
+    height: 3vh;
+    text-transform: capitalize;
+    font-family: 'Merriweather', serif;
+}
+.navtext2 h4{
+    color: white;
+    text-transform: capitalize;
+    margin-left: 2vw;
+    margin-top: 1vh;
+    font-family: 'Merriweather', serif;
+  
+}
+.logo3 img{ 
+    width: 8vw;
+    height:9vh;
+    margin-left: 3vw;
+}
+.logo3 h5{
+    color: white;
+    margin-left: 9vw;
+    position: relative;
+    bottom: 3vh;
+    right: 3px;
+    font-family: 'Merriweather', serif;
+}
+body{
+    height: 70vh;
+}
+.row1 h2{
+    display: flex;
+    margin-left: 1vw;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+.row1 ul{
+    display: flex;
+    margin-left: 20vw;
+    position: relative;
+    bottom: 6vh;
+    margin-top: 2px;
+    
+}
+.row1 ul li{
+    padding: 0 4vw;
+    list-style: none;
+    font-family: 'Merriweather', serif;
+
+}
+.row1 ul li a{
+    text-decoration: none;
+    color:black;
+ text-align: center;
+}
+.row1{
+    height: 6vh;
+    width: 100vw;
+}
+.container .main_img img{
+    width: 95vw;
+    margin-left: 2vw;
+    height: 30vh;
+    margin-top: 2vh;
+}
+.row2 h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Merriweather', serif;
+    max-width: 6vh 0vh;
+}
+    .button button{
+        
+        width: 20vw;
+        height: 10vh;
+        margin: 2vh 0vh 4vh 88vh;
+        background-color: orange;
+        text-transform: uppercase;
+        font-family: 'Cormorant Garamond', serif;
+        
+    }
+.main1{
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+    
+    
